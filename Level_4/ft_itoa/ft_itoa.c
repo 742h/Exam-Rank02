@@ -53,9 +53,3 @@ char	*ft_itoa(int nbr)
 	}
 	return(str);
 }
-
-int main()
-{
-
-	printf("%s", ft_itoa(0));
-}

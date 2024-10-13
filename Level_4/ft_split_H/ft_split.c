@@ -6,7 +6,6 @@
 	int j = 0;
 	int k;
 	char **result = malloc(1024 * sizeof(char *));
-
 	while (str[i])
 	{
 		// Skip whitespace characters

@@ -15,9 +15,3 @@ char    *ft_strdup(char *src)
 	}
 	return(dup);
 }
-
-// #include <stdio.h>
-// int main()
-// {
-// 	printf("%s", ft_strdup("Hello"));
-// }

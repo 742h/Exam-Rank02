@@ -12,9 +12,3 @@ size_t	ft_strspn(const char *s, const char *accept)
 	}
 	return(i);
 }
-
-#include <stdio.h>
-int main()
-{
-	printf("%zu", ft_strspn("abc123", "abc3"));
-}

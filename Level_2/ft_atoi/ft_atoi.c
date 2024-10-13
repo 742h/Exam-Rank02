@@ -25,11 +25,3 @@ int	ft_atoi(const char *str)
 		result = result * -1;
 	return(result);
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// int main()
-// {
-// 	printf("%d\n", ft_atoi("           -991\0234567ytefwsgbfiue"));
-// 		printf("%d", atoi("           -991\0234567ytefwsgbfiue"));
-// }

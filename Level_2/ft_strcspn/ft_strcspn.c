@@ -17,9 +17,3 @@ size_t	ft_strcspn(const char *s, const char *reject)
 	}
 	return(i);
 }
-
-#include <stdio.h>
-int main()
-{
-	printf("%zu", ft_strcspn("abcdefg", "de"));
-}
